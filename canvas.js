@@ -24,8 +24,10 @@ function drawArt(ctx) {
   let time = new Date();
   ctx.rotate(time.getSeconds() + time.getMilliseconds() / 1000);
   ctx.beginPath();
-  ctx.moveTo(-100, -180);
-  ctx.lineTo (140, 120);
+  ctx.moveTo(-190, -120);
+  ctx.lineTo(-170, -120);
+  ctx.lineTo(-170, -150);
+  ctx.lineTo(-190, -150);
   ctx.stroke();
   ctx.restore();
 

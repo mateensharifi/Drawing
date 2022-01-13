@@ -10,8 +10,9 @@ function drawArt(ctx) {
   // Draw base
   ctx.beginPath();
   ctx.moveTo(-190, -120);
-  ctx.lineTo(-170, -120);
-  ctx.lineTo(-200, -120);
+  ctx.lineTo(-190, -170);
+  ctx.moveTo(-240, -190)
+  ctx.lineTo(-240, -190);
   ctx.stroke();
 
   // Draw top

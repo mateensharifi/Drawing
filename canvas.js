@@ -10,14 +10,14 @@ function drawArt(ctx) {
   // Draw base
   ctx.beginPath();
   ctx.moveTo(-190, -120);
-  ctx.lineTo(-190, -170);
-  ctx.moveTo(-240, -190)
+  ctx.lineTo(-190, -190);
+  ctx.moveTo(-240, -120)
   ctx.lineTo(-240, -190);
   ctx.stroke();
 
   // Draw top
   ctx.beginPath();
-  ctx.arc(-170, -120, 30, -30, Math.PI + 2, false);
+  ctx.arc(-190, -120, 30, -30, Math.PI + 2, false);
   ctx.stroke();
 
   ctx.save();

@@ -32,6 +32,7 @@ function drawArt(ctx) {
   ctx.beginPath();
   ctx.moveTo(-190, -190);
   ctx.lineTo(-240, -190);
+  ctx.stroke();
   //ctx.fillRect(-160, 10, 100, 100);
   //ctx.restore();
 
@@ -43,6 +44,7 @@ function drawArt(ctx) {
   dtx.lineTo(-420, -160);
   ctx.moveTo(-200, -140);
   ctx.lineTo(-200, -160);
+  ctx.stroke();
 
   //draw eye
   ctx.beginPath();
@@ -51,6 +53,7 @@ function drawArt(ctx) {
   ctx.lineTo(-220, -150);
   ctx.lineTo(-210, -150);
   ctx.lineTo(-210, -145);
+  ctx.stroke();
 }
 
 function draw() {

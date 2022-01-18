@@ -17,7 +17,7 @@ function drawArt(ctx) {
 
   // Draw top
   ctx.beginPath();
-  ctx.arc(-190, -120, 30, -30, Math.PI + 2, false);
+  ctx.arcTo(-190, -120, -240, -120, 75);
   ctx.stroke();
 
   // Draw backpack

@@ -28,11 +28,29 @@ function drawArt(ctx) {
   ctx.lineTo(-190, -150);
   ctx.stroke();
 
-
+  //draw legs
+  ctx.beginPath();
+  ctx.moveTo(-190, -190);
+  ctx.lineTo(-240, -190);
   //ctx.fillRect(-160, 10, 100, 100);
   //ctx.restore();
 
+  //draw face
+  ctx.beginPath();
+  ctx.moveTo(-200, -140);
+  ctx.lineTo(-240, -140);
+  ctx.moveTo(-200, -160);
+  dtx.lineTo(-420, -160);
+  ctx.moveTo(-200, -140);
+  ctx.lineTo(-200, -160);
 
+  //draw eye
+  ctx.beginPath();
+  ctx.moveTo(-210, -145);
+  ctx.lineTo(-220, -145);
+  ctx.lineTo(-220, -150);
+  ctx.lineTo(-210, -150);
+  ctx.lineTo(-210, -145);
 }
 
 function draw() {

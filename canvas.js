@@ -20,19 +20,19 @@ function drawArt(ctx) {
   ctx.arc(-190, -120, 30, -30, Math.PI + 2, false);
   ctx.stroke();
 
-  ctx.save();
-  let time = new Date();
-  ctx.rotate(time.getSeconds() + time.getMilliseconds() / 1000);
+  // Draw backpack
   ctx.beginPath();
   ctx.moveTo(-190, -120);
   ctx.lineTo(-170, -120);
   ctx.lineTo(-170, -150);
   ctx.lineTo(-190, -150);
   ctx.stroke();
-  ctx.restore();
 
-  ctx.fillRect(-160, 10, 100, 100);
-  ctx.restore();
+
+  //ctx.fillRect(-160, 10, 100, 100);
+  //ctx.restore();
+
+
 }
 
 function draw() {
